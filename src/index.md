@@ -1,4 +1,4 @@
 ---
 layout: layouts/index.njk
-fusha: Jam pidhsome
+fusha: Jam bobi websitave
 ---
