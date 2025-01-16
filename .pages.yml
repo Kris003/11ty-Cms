@@ -2,4 +2,7 @@
   label: Faqa Kryesore
   path: src/index.md
   type: file
-  
+  fields:
+      - name: fusha
+        label: Website title
+        type: string
