@@ -1,3 +1,4 @@
 ---
-layout: index.njk
+layout: layouts/index.njk
+fusha: Kjo eshte fushaaa
 ---
