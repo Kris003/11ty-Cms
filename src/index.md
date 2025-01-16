@@ -1,4 +1,3 @@
 ---
-layout: layouts/index.njk
-fusha: Kjo eshte fushaaa
+fusha: Jam pidhsome
 ---
