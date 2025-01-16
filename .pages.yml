@@ -4,6 +4,9 @@ content:
   path: src/index.md
   type: file
   fields:
-      - name: fusha
-        label: Website title
-        type: string
+  - name: layout
+    label: layout
+    type: string
+  - name: fusha
+    label: Website title
+    type: string
