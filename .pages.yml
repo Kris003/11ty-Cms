@@ -1,6 +1,5 @@
-- name: description
-  label: Description
-  type: string
-  options:
-    minlength: 20
-    maxlength: 160
+- name: faqakryesore
+  label: Faqa Kryesore
+  path: src/index.md
+  type: file
+  
