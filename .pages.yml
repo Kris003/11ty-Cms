@@ -6,7 +6,9 @@ content:
   fields:
   - name: layout
     label: layout
-    type: string
+    type: string 
+    hidden: true
+    default: layouts/index.njk
   - name: fusha
     label: Website title
     type: string
