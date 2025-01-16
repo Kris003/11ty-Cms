@@ -1,0 +1,53 @@
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  transform: scale(1.05);
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+@media (min-width: 699px) {
+  #mobilehead {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  #desktophead {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  header {
+    display: none;
+  }
+}
+
+@media (min-width: 780px) {
+  #headertext {
+    display: none;
+  }
+}
+
+.blurnav {
+  backdrop-filter: blur(25px) saturate(139%);
+  -webkit-backdrop-filter: blur(25px) saturate(139%);
+  background-color: rgba(17, 25, 40, 0.04);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
