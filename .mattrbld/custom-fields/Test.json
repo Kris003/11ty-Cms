@@ -1,0 +1,71 @@
+{
+  "type": "rich text",
+  "default": "<p>i did it </p>",
+  "icon": "group",
+  "key": "fusha",
+  "label": "Faqa Kryesore",
+  "localised": false,
+  "options": {
+    "outputFormat": "markdown",
+    "blockFormats": [
+      "blockquote",
+      "heading",
+      "hr",
+      "orderedList",
+      "unorderedList",
+      "image"
+    ],
+    "inlineFormats": [
+      "em",
+      "strong",
+      "link"
+    ],
+    "formatOptions": [
+      "allowQuoteFooters",
+      "allowNestedLists",
+      "allowImageCaptions"
+    ],
+    "inputRuleOptions": [
+      "autoquotes",
+      "dashes",
+      "ellipsis",
+      "noDoubleCaps",
+      "noDoubleSpace"
+    ],
+    "minHeading": 2,
+    "maxHeading": 4,
+    "codeLangs": [
+      "html",
+      "css",
+      "javascript",
+      "markdown"
+    ],
+    "allowRaw": false,
+    "urlTemplate": "",
+    "urlSuffix": "",
+    "linkOptions": [
+      "forceBlankTarget",
+      "allowExternal",
+      "allowInternal"
+    ]
+  },
+  "validation": {
+    "enforceMinMax": true,
+    "max": null,
+    "min": null,
+    "regex": null,
+    "regexError": null,
+    "required": false,
+    "unit": "length"
+  },
+  "value": null,
+  "version": 2,
+  "visibility": {
+    "hidden": false,
+    "showByValue": {
+      "field": null
+    }
+  },
+  "description": "",
+  "group": "custom fields"
+}

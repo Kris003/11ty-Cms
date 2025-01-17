@@ -17,7 +17,8 @@
           "tab": "sidebar"
         }
       },
-      "onlyPrivileged": true
+      "onlyPrivileged": true,
+      "showInDashboard": false
     },
     {
       "separator": true,
@@ -47,6 +48,28 @@
       },
       "onlyPrivileged": true,
       "protected": true
+    },
+    {
+      "icon": "phone",
+      "label": "Faqa Kryesore",
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/Faqa-Kryesore.json"
+        }
+      },
+      "showInDashboard": false
+    },
+    {
+      "icon": null,
+      "label": "Faqa Kryesore 2",
+      "target": {
+        "name": "Edit Content",
+        "params": {
+          "collection": "Faqa-Kryesore.json",
+          "path": "/src/index.md"
+        }
+      }
     }
   ],
   "slugifyOptions": null,
