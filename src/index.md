@@ -1,4 +1,6 @@
 ---
 layout: layouts/index.njk
-fusha: Jam bobi websitave
+fusha: E beraaaaaaaaaaaaaa
+___mb_schema: /.mattrbld/schemas/Test-2.json
 ---
+
