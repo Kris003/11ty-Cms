@@ -4,7 +4,9 @@
   "disableComments": false,
   "disablePreview": false,
   "draftByDefault": false,
-  "schemas": [],
+  "schemas": [
+    "/.mattrbld/schemas/Test-2.json"
+  ],
   "linkable": false,
   "maxSize": null,
   "permissions": {
